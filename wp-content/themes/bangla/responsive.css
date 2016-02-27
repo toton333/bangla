@@ -1,0 +1,62 @@
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column {width:750px}
+.selectnav {display:none;}
+#nav {display:block}
+.single_promotion {
+  width: 210px;
+}
+.single_service {
+  width: 147px;
+}
+.footer_left {
+  width: 330px;
+}
+.footer_middle, .footer_right {
+  margin-left: 20px;
+  width: 170px;
+}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+.column {width:300px}
+.selectnav {display: block;margin: 0 auto;}
+#nav {display:none}
+.logo {float: none; margin: 0 auto;}
+.mainmenu {border-top: 1px solid #DDDDDD; float: none; font-size: 20px; margin-bottom: 10px; padding-top: 10px;margin-top:0;background:none;}
+.call_to_action h2, .call_to_action p {padding-right: 0;}
+.call_to_action a.readmore {position: inherit; right: 0; top: 0;}
+.single_promotion, .single_service {border-bottom: 1px solid #DDDDDD; margin: 20px; padding-bottom: 30px; text-align: center; width: 260px;}
+.single_promotion:last-child, .single_service:last-child {border-bottom:0px solid;margin-bottom:0}
+.footer_left, .footer_middle, .footer_right {margin-bottom: 20px; width: 260px;margin-left:0px;}
+.footer_bottom_left {float: none; text-align: center;}
+.footer_bottom_right {float: none;}
+.footer_bottom_right ul {text-align: center;}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.column {width:450px}
+.selectnav {display: block;margin: 0 auto;}
+#nav {display:none !important}
+
+.logo {float: none; margin: 0 auto;}
+.mainmenu {border-top: 1px solid #DDDDDD; float: none; font-size: 20px; margin-bottom: 10px; padding-top: 10px;}
+.call_to_action h2, .call_to_action p {padding-right: 0;}
+.call_to_action a.readmore {position: inherit; right: 0; top: 0;}
+.single_promotion, .single_service {border-bottom: 1px solid #DDDDDD; margin: 20px; padding-bottom: 30px; text-align: center; width: 410px;}
+.single_promotion:last-child, .single_service:last-child {border-bottom:0px solid;margin-bottom:0}
+.footer_left, .footer_middle, .footer_right {margin-bottom: 20px; width: 410px;margin-left:0px;}
+.footer_bottom_left {float: none; text-align: center;}
+.footer_bottom_right {float: none;}
+.footer_bottom_right ul {text-align: center;}
+
+}
